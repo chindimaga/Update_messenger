@@ -14,7 +14,8 @@ This code is written entirely in python 3. The following libraries are necessary
 >pip install tabulate
 >pip install requests
 ## Preview
-![The kind of message you get on your slack channel](https://user-images.githubusercontent.com/46645953/78468720-0bea4d80-7738-11ea-8e23-910eee9c7756.jpeg%29)
+<img src="images/preview1.jpeg" height = 500><br>
+<img src="images/preview.jpeg" width = 500><br>
 
 When ever there is a change in the data, the script automatically sends a message similar to this.
  
