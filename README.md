@@ -22,7 +22,7 @@ When ever there is a change in the data, the script automatically sends a messag
 ## Cron daemon
 
 This will help you run the script at regular time intervals. Ofcourse you have to keep your computer on.
-><dl><dt>Open your terminal and run this command</dt><dd>crontab -e</dd><dt>Append this text to run the scirpt every 20 mins</dt><dd>*/20 * * * * cd < PATH TO WORKING DIRECTORY >; python 3 main.py</dd></dl>
+><dl><dt>Open your terminal and run this command</dt><dd>crontab -e</dd><dt>Append this text to run the scirpt every 20 mins</dt><dd>*/20 * * * * cd < PATH TO WORKING DIRECTORY >; python main.py</dd></dl>
 [For more info on cron-deamon click this link
 ](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/)
 ## Issues faced
