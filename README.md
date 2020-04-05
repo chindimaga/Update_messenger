@@ -23,8 +23,7 @@ When ever there is a change in the data, the script automatically sends a messag
 
 This will help you run the script at regular time intervals. Ofcourse you have to keep your computer on.
 ><dl><dt>Open your terminal and run this command</dt><dd>crontab -e</dd><dt>Append this text to run the scirpt every 20 mins</dt><dd>*/20 * * * * cd < PATH TO WORKING DIRECTORY >; python main.py</dd></dl>
-[For more info on cron-deamon click this link
-](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/)
+[For more info on cron-deamon click this link](https://www.geeksforgeeks.org/crontab-in-linux-with-examples/)
 ## Issues faced
 
  - What if a new state is added:
@@ -38,6 +37,8 @@ This will help you run the script at regular time intervals. Ofcourse you have t
 ## Slack client
 
 It is an amazing app. You get a webhook when you create an app. Using the web hook you can easily send the message to your thread. If you are working in machine learning , you can use the code to get updates about how much the training has been done. You can get notifications on phone if you install the app.
+Make an auth.py file in the working directory and store your webhook in this file. Type the following command in your teminal.
+>touch auth.py
 
 
 # Dataset
