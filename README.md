@@ -14,7 +14,7 @@ This code is written entirely in python 3. The following libraries are necessary
 >pip install tabulate
 >pip install requests
 ## Preview
-<img src="images/preview1.jpeg" height = 500><br>
+<img src="images/preview1.png" height = 500><br>
 <img src="images/preview.jpeg" width = 500><br>
 
 When ever there is a change in the data, the script automatically sends a message similar to this.
