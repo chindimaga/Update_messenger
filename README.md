@@ -10,9 +10,9 @@ This code is written entirely in python 3. The following libraries are necessary
  - tabulate
  - requests
  You can install them by following commands (for linux users):
->pip install beautifulsoup4
->pip install tabulate
->pip install requests
+>pip install beautifulsoup4<br>
+>pip install tabulate<br>
+>pip install requests<br>
 ## Preview
 <img src="images/preview1.png" height = 500><br>
 <img src="images/preview.jpeg" width = 500><br>
